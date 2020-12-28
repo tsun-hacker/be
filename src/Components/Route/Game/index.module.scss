@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.acidRainBox {
+    flex: 1;
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.typingBox {
+    width: 300px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.acidPercentContainer {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 200px;
+    background: linear-gradient(0deg, rgba(255,0,104,1) 0%, rgba(0,146,255,1) 100%);
+}
+
+.acidPercentContainer > div {
+    position: absolute;
+    width: 100%;
+    border-width: 1px 0px 0px 0px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    bottom: 0;
+}
+
+.scoreContainer {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
